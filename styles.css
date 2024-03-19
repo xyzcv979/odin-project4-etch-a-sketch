@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 100px; /* Set the width of the button */
+    height: 40px; /* Set the height of the button */
+}
+
+
+#grid-container {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 960px;
+}
+
+.square {
+    flex: 1; /* Allow squares to grow and shrink as needed */
+    background-color: grey; /* Example background color */
+    /* Optionally, add padding or margin if needed */
+    border-style: solid;
+    border-color: black;
+    margin: 0;
+    min-width: 50px;
+    min-height: 50px;
+}
